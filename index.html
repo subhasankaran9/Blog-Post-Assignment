@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My First Web Page</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <!-- FONT AWESOME CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <ul>
+          <li class="navbar-logo">Subha</li>
+          <li class="navbar-toggle">
+            <i class="fa-solid fa-bars"></i>
+          </li>
+          <li class="navbar-links"><a href="#Home">Home</a></li>
+          <li class="navbar-links"><a href="#About">About</a></li>
+          <li class="navbar-links"><a href="#Contact">Contact</a></li>
+          <li class="navbar-links"><a href="#Sports">Sports</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <article>
+        <section id="home" class="home-section">
+          <div class="content-container">
+            <h1>welcome</h1>
+            <p>
+              Dive into the fascinating world of sports with my blog. Here,
+              you'll find thought-provoking articles, detailed analyses,
+              exciting match reviews, and insights from all corners of the
+              sports world. It's a place for fans, enthusiasts, and curious
+              minds alike. Let's embark on this exciting journey together. Enjoy
+              reading!
+            </p>
+          </div>
+        </section>
+
+        <section id="blog" class="blog-section">
+          <div class="card">
+            <img src="images/image1.jpeg" alt="" />
+            <div class="content">
+              <h1>Sport Strategy</h1>
+              <p>
+                To get started, consider your goals, niche, your target
+                audience, and what you want to offer readers and customers.
+                Begin by jotting down the types of stories your readers might be
+                interested in. Who are they? What are their concerns? Where do
+                they live? What topics might offer them value? For example, the
+                Bluehost Blog team targets small business owners who want to
+                learn more about building and using a WordPress website to
+                promote their product or service. That mission shapes our
+                content and gives us direction.
+              </p>
+              <a href="" class="button">Read more</a>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="images/image2.jpeg" alt="" />
+            <div class="content">
+              <h1>Sportskill</h1>
+              <p>
+                This week, men's professional golf returns, without spectators,
+                with a tournament at Colonial Country Club in Fort Worth, Texas.
+                It's the first PGA Tour event since mid-March. Major League
+                Soccer has announced its plan for a return early next month. The
+                NBA is full steam ahead for a July 31 restart.
+              </p>
+              <a href="" class="button">Read More</a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="images/image3.jpeg" alt="" />
+            <div class="content">
+              <h2>Effort</h2>
+              <p>
+                This week, men's professional golf returns, without spectators,
+                with a tournament at Colonial Country Club in Fort Worth, Texas.
+                It's the first PGA Tour event since mid-March. Major League
+                Soccer has announced its plan for a return early next month. The
+                NBA is full steam ahead for a July 31 restart.
+              </p>
+              <a href="" class="button">Read More</a>
+            </div>
+          </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+          <div class="contact-content">
+            <form
+              action="https://httpbin.org/get"
+              method="get"
+              class="contact-form"
+            >
+              <input type="text" placeholder="Name" required />
+              <input type="email" placeholder="Email" required />
+              <textarea placeholder="Message" required></textarea>
+              <button
+                type="submit"
+                formaction="https://httpbin.org/post"
+                formmethod="post"
+              >
+                Submit
+              </button>
+            </form>
+          </div>
+        </section>
+      </article>
+    </main>
+    <footer>
+      <div class="footer-container">
+        <div class="social-media-links">
+          <a href="#" class="social-media-link">Github</a>
+          <a href="#" class="social-media-link">LinkedIn</a>
+          <a href="#" class="social-media-link">StackOverflow</a>
+        </div>
+        <div class="copyright">
+          Copyright &copy; 2023 subha. All rights reserved.
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
